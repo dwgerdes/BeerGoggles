@@ -1,0 +1,10 @@
+{
+	"url": "http://yummyyummy.hopto.me:8080/videostream.cgi?rate=0",
+	"user": "visitor",
+	"password": "beerisgood",
+	"outfile": "bubbles.csv",
+	"upload_interval_seconds": 60.0,
+	"min_motion_frames": 4,
+	"max_motion_frames": 6,
+	"delta_thresh": 50
+}

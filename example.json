@@ -1,0 +1,10 @@
+{
+	"url": "http://webcam.address.com/stream.cgi",
+	"user": "visitor",
+	"password": "guest",
+	"outfile": "bubbles.csv",
+	"upload_interval_seconds": 60.0,
+	"min_motion_frames": 4,
+	"max_motion_frames": 6,
+	"delta_thresh": 50
+}
