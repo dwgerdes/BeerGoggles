@@ -41,11 +41,11 @@ class BubbleFinder(object):
 		# look for features several frames in duration
 		return find_peaks_cwt(sequence, np.arange(min_motion_frames, max_motion_frames+1))
 
-	def process_buffer(self, buff, outfile='bubbles.csv'):
+	def process_buffer(self, buff):
 		features = self.get_peaks(buff['diff'].values, min_motion_frames=self.min_motion_frames, 
 			max_motion_frames=self.max_motion_frames)
 		df_bubbles = buff.iloc[features]
-		df_bubbles.to_csv('bubbles.csv',mode='a', header=(not os.path.isfile(outfile)), index=False)
+		df_bubbles.to_csv(outfile,mode='a', header=(not os.path.isfile(self.outfile)), index=False)
 
 class Cam(object):
 
