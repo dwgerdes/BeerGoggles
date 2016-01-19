@@ -1,7 +1,8 @@
 ## Welcome to BeerGoggles!
 
 This code monitors the video stream from a webcam and applies a simple motion detection algorithm to look for 
-differences between frames. The timestamps of detected events are written to a csv file. The application was designed to measure the bubbles in my fermentation lock when the yeast is active.
+differences between frames. The timestamps of detected events are written to a csv file for further analysis.
+ The application was designed to measure the bubbles in my fermentation lock when the yeast is active.
 
 ## Usage
 
