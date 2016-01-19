@@ -14,6 +14,7 @@ Configuration parameters are passed via a json file. An example is included here
 ## Example
 
 Some video from my fermenter:
+[![Little red riding hood](http://i.imgur.com/7YTMFQp.png)](https://vimeo.com/3514904 "Little red riding hood - Click to Watch!")
 
 [![BeerGoggles](http://imgur.com/pN5MxK9)](https://youtu.be/1YQ170U2Hc4 "BeerGoggles: Fermentation Bubbles")
 
