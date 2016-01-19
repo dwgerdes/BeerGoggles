@@ -23,6 +23,10 @@ uses large changes in contiguous groups of a few frames to detect bubbles. The r
 
 <img src="detections.png">
 
+And from this you can monitor your fermentation rate over time:
+
+<img src="goggles2.png">
+
 ## Issues
 
 With certain webcams I get a bunch of "Corrupt jpeg data" errors. They originate from deep within libjpeg and I am not able to trap them. If you get such errors, you can suppress them by redirecting standard error to /dev/null:
