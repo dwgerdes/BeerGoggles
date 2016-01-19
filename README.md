@@ -15,7 +15,7 @@ Configuration parameters are passed via a json file. An example is included here
 
 Some video from my fermenter:
 
-[![BeerGoggles](http://i.imgur.com/pN5MxK9.gif)](https://youtu.be/1YQ170U2Hc4 "BeerGoggles: Fermentation Bubbles")
+[![BeerGoggles](http://i.imgur.com/pN5MxK9.gif?1)](https://youtu.be/1YQ170U2Hc4 "BeerGoggles: Fermentation Bubbles")
 
 On the left-hand side of this video we have the frames from the webcam. They are sort of out of focus but it doesn't matter. On the right are the thresholded difference images used by BeerGoggles to detect bubbles. The algorithm 
 uses large changes in contiguous groups of a few frames to detect bubbles. The result of the analysis of this video is shown here -- the code detects 43 bubbles, in good agreement with visual inspection.
